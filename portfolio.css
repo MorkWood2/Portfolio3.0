@@ -543,3 +543,16 @@ color:#ff7272 !important;
 .wrapper{
 	text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+	.box-s , .box-text-public ,
+	 p.publicArt , .project-1-box > p {
+
+		 font-size: 11px;
+	 }
+}
+@media only screen and (max-width: 600px){
+	p.publicArt , .project-1-box > p {
+		padding-top: 25px;
+	}
+}
