@@ -347,6 +347,12 @@ background-size: 1800% 1800%;
   position: relative;
   top: 41px;
 }
+.githubImg{
+  padding-top: 15px;
+}
+.githubProHeading{
+  padding-top: 50px;
+}
 .intro-lead{
 color: #4444444;
   text-align:center;
