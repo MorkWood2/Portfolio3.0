@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!--
+  <!--
       ___           ___           ___
      /\  \         /\  \         /\  \         _____
      \:\  \       /::\  \       _\:\  \       /::\  \         ___
@@ -26,245 +26,323 @@
 
       -->
 
-<head>
-	<title>M/W</title>
-	<meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Front End Developer Portfolio">
-  <meta name="author" content="Mark Wild">
-  <meta property="og:title" content="Personal website of Mark Wild">
-  <meta property="og:mwild.co" content="mwild.co ">
-  <meta property="og:type" content="website">
-  <!-- Custom fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Sarina|Dosis" rel="stylesheet">
-  <!-- Bootstrap CDN  -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-  <!-- Animate.css CDN -->
-  <link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
-  crossorigin="anonymous">
-  <!-- Custom CSS -->
-	<link rel="stylesheet" type="text/css" href="portfolio.css">
-	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/png" href="Icons/favicon.ico"/>
+  <head>
+    <title>M/W</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Front End Developer Portfolio" />
+    <meta name="author" content="Mark Wild" />
+    <meta property="og:title" content="Personal website of Mark Wild" />
+    <meta property="og:mwild.co" content="mwild.co " />
+    <meta property="og:type" content="website" />
+    <!-- Custom fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Sarina|Dosis"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+      integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+      crossorigin="anonymous"
+    />
+    <!-- Animate.css CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+      integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="portfolio.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="Icons/favicon.ico" />
 
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="portfolio.js"></script>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top p">
+      <a class="navbar-brand" href="#">MWild.co</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a
+            href="#projects"
+            class="nav-item nav-link projects-tab"
+            id="scroll-projects"
+            href="#"
+            >Projects</a
+          >
+          <a
+            href="#follow"
+            class="nav-item nav-link"
+            id="scroll-follow"
+            href="#"
+            >Follow</a
+          >
+          <a
+            href="#hire"
+            class="nav-item nav-link hire-tab"
+            id="scroll-hire"
+            href="#"
+            >Hire</a
+          >
+        </div>
+      </div>
+    </nav>
 
-     <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-   <script type="text/javascript" src="portfolio.js"></script>
-
-</head>
-<body>
-	<!-- NAV -->
-<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top p" >
-  <a class="navbar-brand" href="#">MWild.co</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-      <a href="#projects" class="nav-item nav-link projects-tab" id="scroll-projects" href="#">Projects</a>
-      <a href="#follow" class="nav-item nav-link"id="scroll-follow" href="#">Follow</a>
-      <a href="#hire" class="nav-item nav-link hire-tab" id="scroll-hire" href="#">Hire</a>
-    </div>
-  </div>
-</nav>
-
-
-<!-- HOME  -->
-<div class="home">
-    <div class="intro-lead">Need some help?</div>
-    <div class="intro-heading">Consider it done.</div>
+    <!-- HOME  -->
+    <div class="home">
+      <div class="intro-lead">Need some help?</div>
+      <div class="intro-heading">Consider it done.</div>
       <div class="wrapper">
         <!-- href="#projects" -->
-        <a class="btn-main" id="scroll-about" >Tell me more</a>
+        <a class="btn-main" id="scroll-about">Tell me more</a>
       </div>
-  </div>
+    </div>
 
+    <!-- ABOUT -->
+    <div class="about">
+      <a id="about"><h2 class="third-heading">About Me</h2></a>
 
+      <div class="img-bio">
+        <img id="img-circle" src="Icons/profile_pic.jpg" />
+        <div class="bio-text-container">
+          <div>Name: Mark Wild</div>
 
-
-
-
-<!-- ABOUT -->
-<div class="about">
-	<a id="about"><h2 class="third-heading">About Me</h2></a>
-
-
-				<div class="img-bio">
-    <img id="img-circle" src="Icons/profile_pic.jpg">
-    <div class="bio-text-container">
-        <div> Name: Mark Wild</div>
-
-        	<br>
+          <br />
           <div>Self-Taught Web Developer</div>
-          <br>
-            <br>
+          <br />
+          <br />
 
-
-        <div><img id="marker" src="Icons/maps-and-flags.svg"/> &nbsp Oakland, CA.</div>
-
-    	</div>
-	</div>
-    <div class="resume">
-      <a href="#">MY RÉSUMÉ</a>
-        <p class="resume-p">The paper I send to companies to ask for a desk job.
+          <div>
+            <img id="marker" src="Icons/maps-and-flags.svg" /> &nbsp Oakland,
+            CA.
+          </div>
+        </div>
+      </div>
+      <div class="resume">
+        <a href="#">MY RÉSUMÉ</a>
+        <p class="resume-p">
+          The paper I send to companies to ask for a desk job.
         </p>
-        <img id="about-icon" src="Icons/text-document.svg"/>
-    </div>
+        <img id="about-icon" src="Icons/text-document.svg" />
+      </div>
 
-    <div class="linkedin">
-      <a href="https://www.linkedin.com/in/mark-wild-44345a13b/">MY LINKEDIN </a>
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/in/mark-wild-44345a13b/"
+          >MY LINKEDIN
+        </a>
         <p class="link-p">The Facebook for adults.</p>
-          <img id="about-icon" src="Icons/linkedin.svg"/>
+        <img id="about-icon" src="Icons/linkedin.svg" />
+      </div>
     </div>
-</div>
-<!-- PROJECTS -->
-<div class="projects">
-  <a id="projects"> <div class="second-heading">Projects</div></a>
-  <!-- <p class="section-subheading"> Stupid stuff that I was brave enough to share with the internet. </p> -->
-  <ul class="project-container">
-  <!-- Project 1 -->
-  <li class="flex-item project-1-box">
-    <a href="https://morkwood2.github.io/neo-art/" class="project-1-box"><img src="pictures/design-project.png"></a>
-    <h2>Art_Project_2</h2>
-    <p>A practice in art and composition. Leveraging JavaScript, Google maps api, and CSS libraries this project documents my journey for creating a Bay Area public art map, all wrapped up in a slick user interface that is simple and easy to use.  </p>
-  </li>
+    <!-- PROJECTS -->
+    <div class="projects">
+      <a id="projects"> <div class="second-heading">Projects</div></a>
+      <!-- <p class="section-subheading"> Stupid stuff that I was brave enough to share with the internet. </p> -->
+      <ul class="project-container">
+        <!-- Project 1 -->
+        <li class="flex-item project-1-box">
+          <a href="https://morkwood2.github.io/neo-art/" class="project-1-box"
+            ><img src="pictures/design-project.png"
+          /></a>
+          <h2>Art_Project_2</h2>
+          <p>
+            A practice in art and composition. Leveraging JavaScript, Google
+            maps api, and CSS libraries this project documents my journey for
+            creating a Bay Area public art map, all wrapped up in a slick user
+            interface that is simple and easy to use.
+          </p>
+        </li>
 
-	<li class="flex-item project-1-box">
-		<a href="https://powerful-beyond-97610.herokuapp.com/art" class="project-1-box publicArt"><img src="pictures/Oakshare.png"></a>
-		<h2 >OakShare</h2>
-		<p class="publicArt"> A work in progess art share application for Oakland based artists. Leveraging Node.js, Express, Mongoose, MongoDB, and Javascript. This project implements CRUD architecture, user profiles, RESTful Routes, Password authentication via Passport as well as admin authorization to create a seamless art share experience.     </p>
-	</li>
-</ul>
+        <li class="flex-item project-1-box">
+          <a
+            href="https://githubsearch22.netlify.com"
+            class="project-1-box publicArt"
+            ><img class="githubImg" src="pictures/githubSearch.png"
+          /></a>
+          <h2 class="githubProHeading">Github search</h2>
+          <p>
+            Built in React, this tool allows users to search Github accounts.
+            Demonstrates use of react hooks, context and router. Refactored to
+            use es6 destructuring for cleaner code.
+          </p>
+        </li>
 
-  </div>
+        <li class="flex-item project-1-box">
+          <a
+            href="https://powerful-beyond-97610.herokuapp.com/art"
+            class="project-1-box publicArt"
+            ><img src="pictures/Oakshare.png"
+          /></a>
+          <h2>OakShare</h2>
+          <p class="publicArt">
+            A WIP art share application for Oakland based artists. Leveraging
+            Node.js, Express, Mongoose, MongoDB, and Javascript. This project
+            implements CRUD architecture, user profiles, RESTful Routes,
+            Password authentication via Passport as well as admin authorization
+            to create a seamless art share experience.
+          </p>
+        </li>
+      </ul>
+    </div>
 
-<!-- SKILLS -->
-<div class="skills-heading">Skills I Know</div>
- <!-- skills container -->
-<ul class="skills-container">
-	<!-- development box begin -->
-  <li class="flex-item">
-
-      <img class="skills-icons" src="Icons/003-computer.svg"/>
+    <!-- SKILLS -->
+    <div class="skills-heading">Skills I Know</div>
+    <!-- skills container -->
+    <ul class="skills-container">
+      <!-- development box begin -->
+      <li class="flex-item">
+        <img class="skills-icons" src="Icons/003-computer.svg" />
         <p class="box-heading">development</p>
-     		<p class="box-s">
-					Front End: HTML, CSS, Javascript (es6)
-					<br>
-					Backend: Node.js, Express, Mongoose, MongoDB, RESTful routes.
-					<br>
-					Currently learning: React, React, React.
- </p>
-  </li>
+        <p class="box-s">
+          Front End: HTML, CSS, Javascript (es6)
+          <br />
+          Backend: Node.js, Express, Mongoose, MongoDB, RESTful routes.
+          <br />
+          Currently learning: React, React, React.
+        </p>
+      </li>
 
-<!-- public speaking box begin -->
-<li class="flex-item">
+      <!-- public speaking box begin -->
+      <li class="flex-item">
+        <img class="skills-icons" src="Icons/002-idea.svg" />
+        <p class="box-heading-public">
+          Communication
+        </p>
+        <p class="box-text-public">
+          Years of working in customer service has fine tuned my ability to
+          listen with intent, speak with respect and work with ease in a
+          collaborative environment. Communication is a soft skill that leads to
+          hard results.
+        </p>
+      </li>
 
-      <img class="skills-icons" src="Icons/002-megaphone.svg"/>
-        <p class="box-heading-public">public <br> speaking</p>
-        	<p class="box-text-public" >My curiosity in technology and comfortablility to speak allows me to convey what I'm passionate about to others. </p>
+      <!-- UI design box begin -->
+      <li class="flex-item">
+        <img class="skills-icons" src="Icons/001-monitor.svg" />
+        <p class="box-heading">ui design</p>
+        <p class="box-s">
+          I design websites that are intuitive and friendly. Allowing users to
+          focus on the content not the tool.
+        </p>
+      </li>
+    </ul>
+    <!-- skills container end -->
 
-</li>
-
-<!-- UI design box begin -->
-<li class="flex-item">
-
-     <img class="skills-icons" src="Icons/001-monitor.svg"/>
-      	<p class="box-heading">ui design</p>
-        	<p class="box-s">I design websites that are intuitive and friendly. Allowing users to focus on the content not the tool.  </p>
-</li>
-</ul>
-<!-- skills container end -->
-
-
-
-<a id="follow"><div class="stalk-heading">A place where you can follow me</div></a>
-	 <!-- follow container -->
-<ul class="follow-container">
-	<!-- github box -->
-  <li class="flex-item">
-  	<p class="box-heading-2">
-  		<a class="git-heading" href="https://github.com/MorkWood2">github</a>
-  	</p>
-    <a href="https://github.com/MorkWood2">
-          <img class="stalk-icons " src="Icons/github.svg"/>
+    <a id="follow"
+      ><div class="stalk-heading">A place where you can follow me</div></a
+    >
+    <!-- follow container -->
+    <ul class="follow-container">
+      <!-- github box -->
+      <li class="flex-item">
+        <p class="box-heading-2">
+          <a class="git-heading" href="https://github.com/MorkWood2">github</a>
+        </p>
+        <a href="https://github.com/MorkWood2">
+          <img class="stalk-icons " src="Icons/github.svg" />
         </a>
 
-      <p class="box-p">Because life is too short not to share.</p>
-  </li>
+        <p class="box-p">Because life is too short not to share.</p>
+      </li>
 
-<!-- gmail box -->
-  <li class="flex-item">
-  	<p class="box-heading-2">
-  		<a class="git-heading" href="mailto:mark.wild189@gmail.com">email</a>
-  	</p>
-  		<a id="gmail-icon-click"href="mailto:mark.wild189@gmail.com">
-        	<img class="stalk-icons" src="Icons/gmail.svg"/>
+      <!-- gmail box -->
+      <li class="flex-item">
+        <p class="box-heading-2">
+          <a class="git-heading" href="mailto:mark.wild189@gmail.com">email</a>
+        </p>
+        <a id="gmail-icon-click" href="mailto:mark.wild189@gmail.com">
+          <img class="stalk-icons" src="Icons/gmail.svg" />
         </a>
 
-      <p class="box-p">Ask me anything.</p>
-  </li>
+        <p class="box-p">Ask me anything.</p>
+      </li>
 
- <!-- Instagram box -->
-  <li class="flex-item">
-  	<p class="box-heading-2">
-  		<a class="git-heading" href="https://www.instagram.com/markwild2/">Instagram</a>
-  	</p>
-      <a id="gmail-icon-click"href="https://www.instagram.com/markwild2/">
-		 <img class="stalk-icons" src="Icons/instagram.svg"/>
-    </a>
-      <p class="box-p">Where I take pictures of food.</p>
-  </li>
+      <!-- Instagram box -->
+      <li class="flex-item">
+        <p class="box-heading-2">
+          <a class="git-heading" href="https://www.instagram.com/markwild2/"
+            >Instagram</a
+          >
+        </p>
+        <a id="gmail-icon-click" href="https://www.instagram.com/markwild2/">
+          <img class="stalk-icons" src="Icons/instagram.svg" />
+        </a>
+        <p class="box-p">Where I take pictures of food.</p>
+      </li>
+    </ul>
+    <!-- container end -->
+    <!-- HIRE -->
+    <div class="hireme" id="hire">
+      <a><div class="fourth-heading">Hire Me</div></a>
+      <p class="fourth-subheading">Currently accepting front-end projects.</p>
+      <div class="mail">
+        <h4>Email</h4>
 
-</ul>
-<!-- container end -->
-<!-- HIRE -->
-<div class="hireme" id="hire">
-	<a><div class="fourth-heading">Hire Me</div></a>
-		<p class="fourth-subheading"> Currently accepting front-end projects. </p>
-			<div class="mail">
-				<h4>Email</h4>
-
-				<a href="mailto:mark.wild189@gmail.com">mark.wild189@gmail.com</a>
-
-			</div>
-</div>
-  <div class="colors"></div>
-<!-- Color gradient -->
-<div class="color-gradient">
+        <a href="mailto:mark.wild189@gmail.com">mark.wild189@gmail.com</a>
+      </div>
+    </div>
+    <div class="colors"></div>
+    <!-- Color gradient -->
+    <div class="color-gradient">
       <div class="poem-container">
         <p>In the beginning</p>
-          <p>There was but zeros and ones</p>
-            <p>With each year</p>
-              <p>came a new language</p>
-                <p>The compilers learned to hear</p>
-                  <p>And the DOM tree grew its roots</p>
-                    <p>And the iterators broke their loop</p>
-                      <p>And progressive web apps began to see</p>
-                        <p>Sitting, illuminated, and content</p>
-                          <p>I dream</p>
-                            <p>In front of my whirring ticking machine.</p>
+        <p>There was but zeros and ones</p>
+        <p>With each year</p>
+        <p>came a new language</p>
+        <p>The compilers learned to hear</p>
+        <p>And the DOM tree grew its roots</p>
+        <p>And the iterators broke their loop</p>
+        <p>And progressive web apps began to see</p>
+        <p>Sitting, illuminated, and content</p>
+        <p>I dream</p>
+        <p>In front of my whirring ticking machine.</p>
       </div>
     </div>
-<div class="black"></div>
-<div class="end">
-  <p>End</p>
-  <p>Icon made by Icomoon, Icon Pond, &amp Freepik from www.flaticon.com</p>
-</div>
+    <div class="black"></div>
+    <div class="end">
+      <p>End</p>
+      <p>Icon made by Icomoon, Icon Pond, &amp Freepik from www.flaticon.com</p>
+    </div>
 
-
-
-
-
-
-<!-- Bootstrap scripts -->
- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-</body>
+    <!-- Bootstrap scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+      integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
